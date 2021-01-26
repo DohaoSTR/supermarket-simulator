@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="Bd_Course_Project.View.ProductsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bd_Course_Project.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1300">
+    <Grid Background="#303030">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Row="0" x:Name="dgGrid"  AutoGenerateColumns="False" Foreground="White" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Path=Id}" />
+                <DataGridTextColumn Header="Имя" Binding="{Binding Path=Name}"/>
+                <DataGridTextColumn Header="Срок годности" Binding="{Binding Path=ExpirationDate, StringFormat=MM/dd/yyyy}"/>
+                <DataGridTextColumn Header="Масса нетто (г)" Binding="{Binding Path=NetWeight}"/>
+                <DataGridTextColumn Header="Масса бруто (г)" Binding="{Binding Path=GrossWeight}"/>
+                <DataGridTextColumn Header="Покупная стоимость (₽)" Binding="{Binding Path=PurchasePrice}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Column="1" Grid.RowSpan="1" Margin="10 0 10 0">
+            <StackPanel>
+                <TextBlock>Имя:</TextBlock>
+                <TextBox x:Name="ListBox_Name" 
+                        Text="{Binding ElementName=dgGrid, Path=SelectedItem.Name, UpdateSourceTrigger=Explicit}"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Срок годности:</TextBlock>
+                <DatePicker x:Name="ListBox_ExpirationDate" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.ExpirationDate, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Масса нетто (г):</TextBlock>
+                <TextBox x:Name="ListBox_NetWeight" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.NetWeight, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Масса бруто (г):</TextBlock>
+                <TextBox x:Name="ListBox_GrossWeight" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.GrossWeight, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Покупная стоимость (₽):</TextBlock>
+                <TextBox x:Name="ListBox_PurchasePrice" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.PurchasePrice, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер товарно-транспортной накладной:</TextBlock>
+                <TextBox x:Name="ListBox_Bills_Of_Lading" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.BillsOfLading.Id, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер свидетельства о госрегистрации:</TextBlock>
+                <TextBox x:Name="ListBox_StateRegistrationCertificate" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.StateRegistrationCertificate.Id, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер ветеринарного сертификата:</TextBlock>
+                <TextBox x:Name="ListBox_VeterinaryCertificate" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.VeterinaryCertificate.Id, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер сертификата о соответствии:</TextBlock>
+                <TextBox x:Name="ListBox_ConformityCertificate" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.ConformityCertificate.Id, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер декларации о соответствии:</TextBlock>
+                <TextBox x:Name="ListBox_ConformityDeclaration" 
+                        Text="{Binding ElementName=dgGrid, 
+                        Path=SelectedItem.ConformityDeclaration.Id, UpdateSourceTrigger=Explicit}" />
+            </StackPanel>
+            <Button Height="30" Margin="0 20 0 0" Background="OrangeRed" BorderBrush="OrangeRed" Click="Add_Click">Добавить продукт</Button>
+            <Button Height="30" Margin="0 25 0 0" Background="OrangeRed" BorderBrush="OrangeRed" Click="Remove_Click">Удалить продукт</Button>
+            <Button Height="30" Margin="0 25 0 0" Background="OrangeRed" BorderBrush="OrangeRed" Click="Update_Click">Изменить данные продукта</Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

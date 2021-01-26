@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bd_Course_Project.App" Collapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.DataBaseEntity" Collapsed="true">
+    <Position X="17.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYCAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataBaseModel\DataBaseEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bd_Course_Project.DataModel">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACggAEBQwQEAQAARAIAAAIAAAiAAEUEgKBAAAQAAQ=</HashCode>
+      <FileName>Model\DataBaseModel\DataModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.ConnectionSettings">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAABQAAAAACAAACAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataBaseModel\IDataAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.MySQLDataAdapter" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACAAAAVACAAAIIAAAAACAgAAAAAAgAAgAAA=</HashCode>
+      <FileName>Model\DataBaseModel\MySQLDataAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.DiscountCard">
+    <Position X="15.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAIAAAAAAAAAADAAAAAAAAEAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\DataModel\Cards\DiscountCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.GiftCard">
+    <Position X="13.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIAAAAAAAAgAAAAAAABAAAAAAAAEAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\DataModel\Cards\GiftCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.Discount">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYBCAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\DataModel\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.BillsOfLading">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAACAAEIAAAAEABABAAAAAAEAgAAAAAgAAgAA=</HashCode>
+      <FileName>Model\DataModel\Documents\BillsOfLading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.ConformityCertificate">
+    <Position X="17.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAQAAAAAAAAAAAAAABAAgAQAAAEABAAAAAgAAAAA=</HashCode>
+      <FileName>Model\DataModel\Documents\ConformityCertificate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.ConformityDeclaration">
+    <Position X="17.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAQAAAAAAAAAAAAAABAAgAQAAAEABAAAAAgAAAAA=</HashCode>
+      <FileName>Model\DataModel\Documents\ConformityDeclaration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.StateRegistrationCertificate">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAQAAAAAAAAAAAAAABAAAAQAAAEABAAAAAgAAAAA=</HashCode>
+      <FileName>Model\DataModel\Documents\StateRegistrationCertificate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.VeterinaryCertificate">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAQAAAEAAAAAAAgEABAA=</HashCode>
+      <FileName>Model\DataModel\Documents\VeterinaryCertificate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.NecessaryProduct" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\ExpertSystemModel\NecessaryProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.WriteOffProduct">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAAACAIAAAAAAABAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\ExpertSystemModel\WriteOffProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.ArrivalProduct">
+    <Position X="13.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAAAAAIAAAAAAABAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\ListsOfProducts\ArrivalProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.SoldProduct">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAAQgAIAAACAAABAAAAIAAAAgEAgAAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\ListsOfProducts\SoldProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.StoredProduct">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAAAAAIAAAAAAABAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\ListsOfProducts\StoredProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.Product">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAIAAAAAAAABAEAAFABAQAQgAAAAAQAIAAgAQAAQI=</HashCode>
+      <FileName>Model\DataModel\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.SpecialOffer">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYAKAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataModel\SpecialOffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.Properties.Resources" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.Properties.Settings" Collapsed="true">
+    <Position X="8" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.Cards.DiscountCardsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Cards\DiscountCardsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.Cards.GiftCardsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Cards\GiftCardsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.BillsOfLadingControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Documents\BillsOfLadingControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.ProductsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAICAAAAQAAA=</HashCode>
+      <FileName>View\Controls\ListOfProducts\ProductsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Documents.ConformityCertificateControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAABQAAA=</HashCode>
+      <FileName>View\Controls\Documents\ConformityCertificateControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Documents.ConformityDeclarationControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAQAAE=</HashCode>
+      <FileName>View\Controls\Documents\ConformityDeclarationControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Documents.StateRegistrationCertificateControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Documents\StateRegistrationCertificateControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Documents.VeterinaryCertificateControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Documents\VeterinaryCertificateControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.KnowledgeBaseControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAgACAAAAAAQAAAAAAAAAAAACAA=</HashCode>
+      <FileName>View\Controls\KnowledgeBaseControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.ListOfProducts.ArrivalProductsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAQAEA=</HashCode>
+      <FileName>View\Controls\ListOfProducts\ArrivalProductsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.ListOfProducts.SoldProductsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAARAAA=</HashCode>
+      <FileName>View\Controls\ListOfProducts\SoldProductsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.ListOfProducts.StoredProductsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\ListOfProducts\StoredProductsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Menu.ItemMenu" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>View\Controls\Menu\ItemMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.View.Menu.MenuItemControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>View\Controls\Menu\MenuItemControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Menu.SubItem" Collapsed="true">
+    <Position X="4.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Controls\Menu\SubItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.Stocks.DiscountsControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAiAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Stocks\DiscountsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bd_Course_Project.View.Controls.Stocks.SpecialOffersControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>View\Controls\Stocks\SpecialOffersControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Bd_Course_Project.IDataAdapter">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAARACAAAAIAAAAACAgAAAAAAgAAgAAA=</HashCode>
+      <FileName>Model\DataBaseModel\IDataAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bd_Course_Project.IDataBaseEntity">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataBaseModel\IDataBaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
